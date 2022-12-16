@@ -1,0 +1,46 @@
+//header
+header .logo {
+    background: url('../images/logo.png') no-repeat center;
+    background-size: contain;
+}
+
+//bannerArea
+.bannerArea .loginArea {
+    background: url('../images/bannerArea_loginArea_BG.jpg') no-repeat top center;
+    background-size: contain;
+}
+.bannerArea .loginArea .login_ic {
+    background: url('../images/bannerArea_loginArea_Icon.png') no-repeat center;
+    background-size: contain;
+}
+.bannerArea .loginArea .forget_ic {
+    background: url('../images/question.png') no-repeat center;
+    background-size: contain;
+}
+.bannerArea .marquee_ic {
+    background: url('../images/marquee_ic.png') no-repeat center;
+    background-size: contain;
+}
+
+//mainArea
+.mainArea .topList .innerBox {
+    background: url('../images/mainArea_topList_lineBG.png') no-repeat center;
+    background-size: contain;
+}
+.mainArea .topList .innerBox .cur {
+    background: url('../images/mainArea_topList_lineCircle.png') no-repeat center;
+    background-size: contain;
+}
+.mainArea .topList .innerBox .list li:not(.cur) i {
+    background: url('../images/mainArea_topList_listBtn.png') no-repeat;
+    background-size: 900%;
+}
+.mainArea .topList .title i {
+    background: url('../images/mainArea_topList_titleIcon.png') no-repeat;
+    background-size: 900%;
+}
+.mainArea .swiperBox .swiper-button-next-2,
+.mainArea .swiperBox .swiper-button-prev-2 {
+    background: url('../images/mainArea_swiper_arrow.png') no-repeat center;
+    background-size: contain;
+}
