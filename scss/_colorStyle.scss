@@ -88,6 +88,68 @@ $bannerArea_bottom_BG: linear-gradient(to right,#6b2e15 4%,#9b4c18 38%,#9b4c18 8
 //mainArea
 $mainArea_right_BG: #241711;
 $mainArea_right_Border: #8d5f4f;
+$mainArea_right_TitleColor: #fdcb12;
+$mainArea_right_TitleBorder: #ffe085;
+$mainArea_right_innerBG: #452511;
+$mainArea_right_innerBorder: #613c26;
+$mainArea_right_innerTitleColor: #e99b6f;
+@mixin innerLevel {
+    background: #1f99e6;
+    border-radius: 0 30px 30px 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px 5px 5px;
+}
+$innerLevel_one: #db2020;
+$innerLevel_two: #ed6817;
+$innerLevel_three: #f0b20a;
+
+//footer
+$footer_topBorder: linear-gradient(to right,#cc8c2c 0%,#f7db6e 34%,#cc8c2c 73%,#f9d650 100%);
+$footer_titleColor: linear-gradient(to top,#90591e 6%,#f69f42 86%);
+@mixin footer_vipBtn {
+    background: linear-gradient(to top,#ca892b 23%,#f4d159 100%);
+    border: solid 1px #ead289;
+    box-shadow: -2px -2px 3px 0 #79521e inset,0 5px 8px 0 #00000080;
+    color: #2c150c;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.15s all;
+
+    &:hover,&:active,&.active {
+        background: linear-gradient(to top,#1c7bdd 0%,#0e53ba 100%);
+        box-shadow: none;
+        color: #fffffe;
+        transform: translateY(2px);
+    }
+}
+$footer_partner_BG: #5f3318;
+$footer_partner_Border: #8b4c26;
+$footer_bottom_Border: #5d4236;
+$footer_bottom_gcLinkBG: #ffe9a8;
+@mixin serviceBtn {
+    background: linear-gradient(to top,#eb9821 0%,#ffe553 100%);
+    border-radius: 16px;
+    border: solid 1px #ffec6a;
+    color: #251711;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover,&:active,&.active {
+        background: linear-gradient(to top,#ffbc2d 0%,#e1650b 100%);
+    }
+}
+@mixin footerList {
+    color: #ac7c60;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover,&:active,&.active {
+        color: #ffe220;
+        text-decoration: underline;
+    }
+}
 
 //mainColor
 $mainColor_1: #eee5ca;

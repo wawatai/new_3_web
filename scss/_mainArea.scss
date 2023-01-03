@@ -297,10 +297,19 @@
                 .swiper-wrapper {
     
                     .swiper-slide {
+                        cursor: pointer;
     
                         img {
                             width: 100%;
                             object-fit: contain;
+                        }
+
+                        p {
+                            color: $mainColor_1;
+                            font-size: 1vw;
+                            font-weight: bold;
+                            text-align: center;
+                            margin-top: 10px;
                         }
                     }
                 }
@@ -333,5 +342,122 @@
         width: 21.5%;
         height: auto;
         flex-shrink: 0;
+        padding-top: 50px;
+
+        .gameBox {
+            width: 90%;
+            height: auto;
+            background: $mainArea_right_BG;
+            border: solid 1px $mainArea_right_Border;
+            padding: 10px 20px 25px;
+
+            //title
+            .title {
+                width: 100%;
+                height: auto;
+                border-bottom: solid 1px $mainArea_right_TitleBorder;
+                display: flex;
+                align-items: center;
+                padding-bottom: 5px;
+                margin-bottom: 15px;
+
+                i {
+                    width: 10.875%;
+                    height: 0;
+                    padding-top: 12.59%;
+                    margin-right: 10px;
+                }
+
+                p {
+                    color: $mainArea_right_TitleColor;
+                    font-size: 1.2vw;
+                    font-weight: bold;
+                }
+            }
+
+            //gameList
+            .gameList {
+                width: 100%;
+                height: auto;
+                
+                li {
+                    width: 100%;
+                    height: 72px;
+                    background: $mainArea_right_innerBG;
+                    border: solid 1px $mainArea_right_innerBorder;
+                    position: relative;
+                    display: flex;
+                    cursor: pointer;
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin: 0;
+                    }
+
+                    //imgBox
+                    .imgBox {
+                        width: auto;
+                        height: 100%;
+                        position: relative;
+                        flex-shrink: 0;
+
+                        img {
+                            height: 100%;
+                            object-fit: contain;
+                        }
+
+                        p {
+                            width: auto;
+                            height: auto;
+                            @include innerLevel;
+                            position: absolute;
+                            top: -3px;
+                            left: -5px;
+
+                            &.one {
+                                background: $innerLevel_one;
+                            }
+                            &.two {
+                                background: $innerLevel_two;
+                            }
+                            &.three {
+                                background: $innerLevel_three;
+                            }
+                        }
+                    }
+
+                    //textBox
+                    .textBox {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        padding-left: 20px;
+
+                        .smallTitle {
+                            color: $mainArea_right_innerTitleColor;
+                            font-size: 15px;
+                            font-weight: bold;
+                        }
+
+                        .name {
+                            color: $mainColor_1;
+                            font-size: 20px;
+                            font-weight: bold;
+                        }
+
+                        i {
+                            width: 23px;
+                            height: 19px;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

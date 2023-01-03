@@ -44,3 +44,65 @@ header .logo {
     background: url('../images/mainArea_swiper_arrow.png') no-repeat center;
     background-size: contain;
 }
+.mainArea .right .title i {
+    background: url('../images/mainArea_right_titleIcon.png') no-repeat center;
+    background-size: contain;
+}
+.mainArea .right .gameList .textBox i {
+    background: url('../images/mainArea_right_innerArrow.png') no-repeat center;
+    background-size: contain;
+}
+
+//footer
+footer .vipBanner {
+    background: url('../images/footer_vipBanner.jpg') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .arrow_ic {
+    background: url('../images/footer_partner/partner_arrow.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .jili {
+    background: url('../images/footer_partner/jili.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .sp {
+    background: url('../images/footer_partner/sp.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .ab {
+    background: url('../images/footer_partner/ab.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .sport {
+    background: url('../images/footer_partner/36588.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .dg {
+    background: url('../images/footer_partner/dg.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .pls {
+    background: url('../images/footer_partner/pls.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .ifun {
+    background: url('../images/footer_partner/ifun.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .bng {
+    background: url('../images/footer_partner/bng.png') no-repeat center;
+    background-size: contain;
+}
+footer .partnerBox .tpg {
+    background: url('../images/footer_partner/tpg.png') no-repeat center;
+    background-size: contain;
+}
+footer .bottom .linkList li {
+    background: url('../images/footer_linkIcon.png') no-repeat;
+    background-size: 600%;
+}
+footer .bottom .gcLink::before {
+    background: url('../images/gcLink.png') no-repeat center;
+    background-size: contain;
+}
